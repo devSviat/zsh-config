@@ -121,7 +121,7 @@ fi
 #alias gh="git hist"
 #alias gcn="git fetch --prune"
 
-# Oh My Posh: тема з цього репозиторію (override: export ZSH_CONFIG_REPO=/інший/шлях)
+# Oh My Posh: theme from this repo (override: export ZSH_CONFIG_REPO=/other/path)
 export ZSH_CONFIG_REPO="${ZSH_CONFIG_REPO:-${XDG_CONFIG_HOME:-$HOME/.config}/zsh-config}"
 eval "$(oh-my-posh init zsh --config "$ZSH_CONFIG_REPO/themes/devSviat.omp.json")"
 export NVM_DIR="$HOME/.nvm"
