@@ -111,6 +111,12 @@ if [ -x "$(command -v exa)" ]; then
     alias l="exa --long --all --group"
 fi
 
+# Arch ships Zed's binary as `zeditor`, but Zed's own docs, CLI help and every
+# tutorial call it `zed`. Restore the expected name.
+if [ -x "$(command -v zeditor)" ]; then
+    alias zed="zeditor"
+fi
+
 #alias i="sudo pacman -S"
 #alias m="make"
 #alias n="nvim"
