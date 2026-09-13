@@ -121,7 +121,7 @@ fi
 #alias m="make"
 #alias n="nvim"
 #alias v="vim"
-#alias c="clear"
+alias c="clear"
 #alias e="exit"
 
 #alias gh="git hist"
